@@ -71,6 +71,10 @@ const Container = styled.div`
     #ic-dribble {
         width: 24.05px !important;
     }
+
+    @media (max-width: 670px) {
+        display: block;
+    }
 `
 
 export default Footer
