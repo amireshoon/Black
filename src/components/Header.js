@@ -18,6 +18,7 @@ const Header = () => {
                 <MenuItem href="/portfolio">Portfolio</MenuItem>
 
             </Menu>
+            <CurrentpageMobile href="/">Home</CurrentpageMobile>
             <div>
             </div>
         </Container>
@@ -84,6 +85,23 @@ const HamMenu = styled.button`
     }
 `
 
+const CurrentpageMobile = styled.a`
+display: none !important;
+font-size: 14px;
+text-transform: uppercase;
+font-weight: 700;
+padding-right: 16px;
+letter-spacing: -.05em;
+display: inline-flex;
+align-items: center;
+cursor: pointer;
+height:100%;
+left: -10px;
+@media (max-width: 730px) {
+    display: flex !important;
+}
+
+`
 /**
  * color: ${props => props.current ? "palevioletred" : "white"};
  **/
