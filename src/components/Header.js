@@ -4,7 +4,10 @@ import styled from 'styled-components'
 const Header = () => {
     return (
         <Container>
-            <div></div>
+            <div>
+            <HamMenu><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" shape-rendering="geometricPrecision" class="mobile-menu_icon__1FO0U"><path d="M3 12h18"></path><path d="M3 6h18"></path><path d="M3 18h18"></path></svg></HamMenu>
+
+            </div>
             <Menu>
 
                 <MenuItem href="#" current>Home</MenuItem>
@@ -14,7 +17,8 @@ const Header = () => {
                 <MenuItem href="#">Portfolio</MenuItem>
 
             </Menu>
-            <div></div>
+            <div>
+            </div>
         </Container>
     )
 }
@@ -35,6 +39,11 @@ justify-content: space-between;
 const Menu = styled.div`
 display: initial;
 height: 100%;
+
+@media (max-width: 730px) {
+    display: none;
+}
+
 `
 
 const MenuItem = styled.a`
@@ -51,6 +60,29 @@ cursor: pointer;
 height:100%;
 
 `
+const HamMenu = styled.button`
+    display: none;
+    color: white;
+    margin-right: 16px;
+    margin-left: 16px;
+    cursor: pointer;
+    background: none;
+    background-image: none;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    border: none;
+    @media (max-width: 730px) {
+        display: flex;
+    }
+`
+
 /**
  * color: ${props => props.current ? "palevioletred" : "white"};
  **/
