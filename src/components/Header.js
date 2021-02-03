@@ -5,16 +5,17 @@ const Header = () => {
     return (
         <Container>
             <div>
-            <HamMenu><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" shape-rendering="geometricPrecision" class="mobile-menu_icon__1FO0U"><path d="M3 12h18"></path><path d="M3 6h18"></path><path d="M3 18h18"></path></svg></HamMenu>
+            <HamMenu>
+                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" shape-rendering="geometricPrecision" class="mobile-menu_icon__1FO0U"><path d="M3 12h18"></path><path d="M3 6h18"></path><path d="M3 18h18"></path></svg></HamMenu>
 
             </div>
             <Menu>
 
-                <MenuItem href="#" current>Home</MenuItem>
-                <MenuItem href="#">About</MenuItem>
-                <MenuItem href="#">Contact</MenuItem>
-                <MenuItem href="#">Journey</MenuItem>
-                <MenuItem href="#">Portfolio</MenuItem>
+                <MenuItem href="/" current>Home</MenuItem>
+                <MenuItem href="/about">About</MenuItem>
+                <MenuItem href="/contact">Contact</MenuItem>
+                <MenuItem href="/journey">Journey</MenuItem>
+                <MenuItem href="/portfolio">Portfolio</MenuItem>
 
             </Menu>
             <div>

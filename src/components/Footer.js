@@ -14,16 +14,16 @@ const Footer = () => {
                 <ul>
                     <li>
                         <a href="/github">
-                            <img src={icgithub}></img>
+                            <img src={icgithub} alt="Github profile"></img>
                         </a>
                     </li>
                     <li>
-                        <a href="/github">
+                        <a href="/github" ant="twitter account">
                             <img src={ictwitter} id="ic-twitter"></img>
                         </a>
                     </li>
                     <li>
-                        <a href="/github">
+                        <a href="/github" alt="dribble account">
                             <img src={icdribble} id="ic-dribble"></img>
                         </a>
                     </li>
