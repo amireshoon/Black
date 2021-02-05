@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <Container>
             <Wrapper>
-                <img id="i-p-l" src={personwithlaptop}/>
+                <img id="i-p-l" src={personwithlaptop} alt="man with laptop"/>
                 <h1>
                     Hello there <img id="hand-wave" src={handemoji} alt="hand waving emoji"/><br></br>
                     <span>I </span><span>am </span>Amirhossein
@@ -17,7 +17,7 @@ const Home = () => {
                 <p id="short-about">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                 </p>
-                <img id="i-h" src={floatingHand}/>
+                <img id="i-h" src={floatingHand} alt="floating hand"/>
             </Wrapper>
         </Container>
     )
