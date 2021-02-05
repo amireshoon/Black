@@ -5,7 +5,7 @@ import ictwitter from '../images/ic-twitter.svg'
 import icdribble from '../images/ic-dribble.svg'
 const Footer = () => {
     return (
-        <footer>
+        <BlackFooter>
         <Container>
             <div>
                 Copyright © 2021 All rights reserved.
@@ -33,9 +33,13 @@ const Footer = () => {
                 <a href="/github">Souce code available</a> | <a href="/github">Contribute</a>
             </div>
         </Container>
-        </footer>
+        </BlackFooter>
     )
 }
+
+const BlackFooter = styled.footer`
+    z-index: 10;
+`
 
 const Container = styled.div`
     display: flex;
