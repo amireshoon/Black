@@ -27,3 +27,7 @@ a {
 a:hover {
   color: white;
 }
+
+img {
+  pointer-events: none
+}
