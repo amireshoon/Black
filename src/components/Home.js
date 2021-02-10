@@ -86,6 +86,12 @@ const ButtonHolders = styled.div`
     @media (max-width: 500px) {
         display: grid;
     }
+    opacity: 0;
+    animation: fadein 2s forwards;
+    -moz-animation: fadein 2s forwards; /* Firefox */
+    -webkit-animation: fadein 2s forwards; /* Safari and Chrome */
+    -o-animation: fadein 2s forwards; /* Opera */
+    animation-delay: 2s;
 `
 
 const Container = styled.div`
@@ -111,6 +117,12 @@ align-items: center;
         left: -24px;
         position: static;
     }
+    opacity: 0;
+    animation: fadein 2s forwards;
+    -moz-animation: fadein 2s forwards; /* Firefox */
+    -webkit-animation: fadein 2s forwards; /* Safari and Chrome */
+    -o-animation: fadein 2s forwards; /* Opera */
+    animation-delay: 1.2s;
 }
 
 #i-h {
@@ -131,6 +143,12 @@ align-items: center;
     @media (max-width: 513px) {
         display: none;
     }
+    opacity: 0;
+    animation: fadein 2s forwards;
+    -moz-animation: fadein 2s forwards; /* Firefox */
+    -webkit-animation: fadein 2s forwards; /* Safari and Chrome */
+    -o-animation: fadein 2s forwards; /* Opera */
+    animation-delay: 1.2s;
 }
 
 h1 {
@@ -147,6 +165,12 @@ h1 {
         font-size: 42px;
         width: 90%
     }
+    opacity: 0;
+    animation: fadein 2s forwards;
+    -moz-animation: fadein 2s forwards; /* Firefox */
+    -webkit-animation: fadein 2s forwards; /* Safari and Chrome */
+    -o-animation: fadein 2s forwards; /* Opera */
+    animation-delay: 1.2s;
 }
 
 #hand-wave {
@@ -173,6 +197,12 @@ span {
     font-size: 18px;
     font-weight:400;
     margin-top: 15px;
+    opacity: 0;
+    animation: fadein 2s forwards;
+    -moz-animation: fadein 2s forwards; /* Firefox */
+    -webkit-animation: fadein 2s forwards; /* Safari and Chrome */
+    -o-animation: fadein 2s forwards; /* Opera */
+    animation-delay: 1.4s;
 }
 
 #about-me-btn {
