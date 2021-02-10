@@ -55,6 +55,10 @@ const SecondaryButton = styled.button`
     cursor: pointer;
     text-align: center;
     align-items: center;
+    @media (max-width: 500px) {
+        margin-right: 0px;
+        margin-top: 19px;
+    }
 `
 
 const ButtonHolders = styled.div`
@@ -77,6 +81,10 @@ const ButtonHolders = styled.div`
 
     #portfolios-btn:hover {
         background-color: rgba(255,255,255,0.06);
+    }
+
+    @media (max-width: 500px) {
+        display: grid;
     }
 `
 
@@ -120,7 +128,7 @@ align-items: center;
         width:262px;
         height:262px;
     }
-    @media (max-width: 400px) {
+    @media (max-width: 513px) {
         display: none;
     }
 }
