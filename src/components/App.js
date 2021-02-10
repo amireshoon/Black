@@ -33,7 +33,7 @@ const App = () => {
           <Route path="/">
             <RouteToHome />
           </Route>
-          
+
         </Switch>
       </div>
     </Router>
@@ -75,17 +75,49 @@ function RouteToHome() {
 }
 
 function RouteToAbout() {
-  return <h1>Hi</h1>;
+  return (
+    <Container>
+      <Wrapper>
+        <Header />
+        <h1>About me</h1>
+        <Footer />
+      </Wrapper>
+    </Container>
+  )
 }
 
 function RouteToContact() {
-  return <h1>Hi</h1>;
+  return (
+    <Container>
+      <Wrapper>
+        <Header />
+        <h1>Contact me</h1>
+        <Footer />
+      </Wrapper>
+    </Container>
+  )
 }
 
 function RouteToJourney() {
-  return <h1>Hi</h1>;
+  return (
+    <Container>
+      <Wrapper>
+        <Header />
+        <h1>My Journey</h1>
+        <Footer />
+      </Wrapper>
+    </Container>
+  )
 }
 
 function RouteToPortfolio() {
-  return <h1>Hi</h1>;
+  return (
+    <Container>
+      <Wrapper>
+        <Header />
+        <h1>My Portfolios</h1>
+        <Footer />
+      </Wrapper>
+    </Container>
+  )
 }
