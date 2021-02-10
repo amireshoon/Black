@@ -10,28 +10,26 @@ const Header = () => {
             <div>
             <HamMenu>
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" shape-rendering="geometricPrecision" class="mobile-menu_icon__1FO0U"><path d="M3 12h18"></path><path d="M3 6h18"></path><path d="M3 18h18"></path></svg></HamMenu>
-
             </div>
             <Menu>
-
                 <MenuItem href="/" current><Link to="/">Home</Link></MenuItem>
-                <MenuItem href="/about" current><Link to="/about">About</Link></MenuItem>
-                <MenuItem href="/contact" current><Link to="/contact">Contact</Link></MenuItem>
-                <MenuItem href="/journey" current><Link to="/journey">Journey</Link></MenuItem>
-                <MenuItem href="/portfolio" current><Link to="/portfolio">Portfolio</Link></MenuItem>
-
+                <MenuItem href="/about"><Link to="/about">About</Link></MenuItem>
+                <MenuItem href="/contact"><Link to="/contact">Contact</Link></MenuItem>
+                <MenuItem href="/journey"><Link to="/journey">Journey</Link></MenuItem>
+                <MenuItem href="/portfolio"><Link to="/portfolio">Portfolio</Link></MenuItem>
             </Menu>
             <CurrentpageMobile href="/">Home</CurrentpageMobile>
             <div>
+                {/* Place for logo or anything similar */}
             </div>
         </Container>
     )
 }
 
 const Container = styled.header`
-display: flex;
-align-items: center;
-justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width:100%;
     min-height:58px;
     backdrop-filter: blur(35px);
@@ -42,28 +40,25 @@ justify-content: space-between;
 `
 
 const Menu = styled.div`
-display: initial;
-height: 100%;
+    display: initial;
+    height: 100%;
 
-@media (max-width: 730px) {
-    display: none;
-}
-
+    @media (max-width: 730px) {
+        display: none;
+    }
 `
 
 const MenuItem = styled.a`
-
-font-size: 14px;
-text-transform: uppercase;
-font-weight: 700;
-padding-left: 16px;
-padding-right: 16px;
-letter-spacing: -.05em;
-display: inline-flex;
-align-items: center;
-cursor: pointer;
-height:100%;
-
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-left: 16px;
+    padding-right: 16px;
+    letter-spacing: -.05em;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    height:100%;
 `
 const HamMenu = styled.button`
     display: none;
@@ -89,21 +84,20 @@ const HamMenu = styled.button`
 `
 
 const CurrentpageMobile = styled.a`
-display: none !important;
-font-size: 14px;
-text-transform: uppercase;
-font-weight: 700;
-padding-right: 16px;
-letter-spacing: -.05em;
-display: inline-flex;
-align-items: center;
-cursor: pointer;
-height:100%;
-left: -10px;
-@media (max-width: 730px) {
-    display: flex !important;
-}
-
+    display: none !important;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-right: 16px;
+    letter-spacing: -.05em;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    height:100%;
+    left: -10px;
+    @media (max-width: 730px) {
+        display: flex !important;
+    }
 `
 /**
  * color: ${props => props.current ? "palevioletred" : "white"};
