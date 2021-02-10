@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import personwithlaptop from '../images/img-p-laptop.svg'
 import handemoji from '../images/hand_wave.png'
 import floatingHand from '../images/img-hand.svg'
+import nerdFace from '../images/nerd-face.png'
 
 const Home = () => {
     return (
@@ -17,11 +18,53 @@ const Home = () => {
                 <p id="short-about">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                 </p>
+                <ButtonHolders>
+                    <PrimaryButton id="about-me-btn">About me</PrimaryButton>
+                    <SecondaryButton id="portfolios-btn"><img id="nerd-face" src={nerdFace} alt="nerd face emoji"/> Let’s see portfolios</SecondaryButton>
+                </ButtonHolders>
                 <img id="i-h" src={floatingHand} alt="floating hand"/>
             </Wrapper>
         </Container>
     )
 }
+
+const PrimaryButton = styled.button`
+    background-color: #FDB827;
+    height: 49px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 19px;
+    padding-right: 19px;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+`
+const SecondaryButton = styled.button`
+    background-color: rgba(255,255,255,0.1);
+    height: 49px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 19px;
+    padding-right: 19px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+`
+
+const ButtonHolders = styled.div`
+    display: flex;
+    margin: 0 auto;
+    padding: 10px 0;
+    justify-content: center;
+    margin-top: 31px;
+
+    #nerd-face {
+        width: 18px;
+        height: 18px;
+        position: relative;
+        top: 3px;
+    }
+`
 
 const Container = styled.div`
 height:100%;
@@ -108,6 +151,10 @@ span {
     font-size: 18px;
     font-weight:400;
     margin-top: 15px;
+}
+
+#about-me-btn {
+    margin-right: 11px;
 }
 `
 
