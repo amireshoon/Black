@@ -19,8 +19,8 @@ const Home = () => {
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                 </p>
                 <ButtonHolders>
-                    <PrimaryButton id="about-me-btn">About me</PrimaryButton>
-                    <SecondaryButton id="portfolios-btn"><img id="nerd-face" src={nerdFace} alt="nerd face emoji"/> Let’s see portfolios</SecondaryButton>
+                    <PrimaryButton id="about-me-btn" type="button">About me</PrimaryButton>
+                    <SecondaryButton id="portfolios-btn" type="button"><img id="nerd-face" src={nerdFace} alt="nerd face emoji"/> Let’s see portfolios</SecondaryButton>
                 </ButtonHolders>
                 <img id="i-h" src={floatingHand} alt="floating hand"/>
             </Wrapper>
@@ -38,6 +38,8 @@ const PrimaryButton = styled.button`
     color: black;
     font-size: 16px;
     font-weight: 700;
+    transition-duration: 0.4s;
+    cursor: pointer;
 `
 const SecondaryButton = styled.button`
     background-color: rgba(255,255,255,0.1);
@@ -49,6 +51,10 @@ const SecondaryButton = styled.button`
     color: white;
     font-size: 16px;
     font-weight: 700;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
 `
 
 const ButtonHolders = styled.div`
@@ -63,6 +69,14 @@ const ButtonHolders = styled.div`
         height: 18px;
         position: relative;
         top: 3px;
+    }
+
+    #about-me-btn:hover {
+        background-color: rgba(253, 184, 39, 0.6);
+    }
+
+    #portfolios-btn:hover {
+        background-color: rgba(255,255,255,0.06);
     }
 `
 
