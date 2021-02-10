@@ -1,5 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
+import {
+    Link
+} from 'react-router-dom'
 
 const Header = () => {
     return (
@@ -11,11 +14,11 @@ const Header = () => {
             </div>
             <Menu>
 
-                <MenuItem href="/" current>Home</MenuItem>
-                <MenuItem href="/about">About</MenuItem>
-                <MenuItem href="/contact">Contact</MenuItem>
-                <MenuItem href="/journey">Journey</MenuItem>
-                <MenuItem href="/portfolio">Portfolio</MenuItem>
+                <MenuItem href="/" current><Link to="/">Home</Link></MenuItem>
+                <MenuItem href="/about" current><Link to="/about">About</Link></MenuItem>
+                <MenuItem href="/contact" current><Link to="/contact">Contact</Link></MenuItem>
+                <MenuItem href="/journey" current><Link to="/journey">Journey</Link></MenuItem>
+                <MenuItem href="/portfolio" current><Link to="/portfolio">Portfolio</Link></MenuItem>
 
             </Menu>
             <CurrentpageMobile href="/">Home</CurrentpageMobile>
