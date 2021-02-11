@@ -125,6 +125,14 @@ const BlackArticle = styled.article`
     #black-post-link > img {
         width: 14px;
     }
+
+    @media (max-width: 770px) {
+        margin-left: 0px;
+        width: 100%;
+        #black-post-image {
+            width: 100%;
+        }
+    }
 `
 
 export default Blog
