@@ -8,6 +8,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Blog from './Blog';
 
 const App = () => {
   return (
@@ -131,7 +132,7 @@ function RouteToBlog() {
     <Container>
       <Wrapper>
         <Header />
-        <h1>Blog</h1>
+        <Blog />
         <Footer />
       </Wrapper>
     </Container>
