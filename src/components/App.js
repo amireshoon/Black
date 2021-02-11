@@ -6,7 +6,9 @@ import Home from './Home';
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  useRouteMatch,
+  useParams
 } from "react-router-dom";
 import Blog from './Blog';
 
@@ -128,13 +130,26 @@ function RouteToPortfolio() {
 }
 
 function RouteToBlog() {
+  let match = useRouteMatch();
   return (
     <Container>
-      <Wrapper>
-        <Header />
-        <Blog />
-        <Footer />
-      </Wrapper>
+      <Switch>
+        <Route path={`${match.path}/:topicId`}>
+          <RouteToArticle />
+        </Route>
+        <Route path={match.path}>
+          <Wrapper>
+            <Header />
+              <Blog />
+            <Footer />
+          </Wrapper>
+        </Route>
+      </Switch>
     </Container>
   )
+}
+
+function RouteToArticle() {
+  let { topicId } = useParams();
+  return <h3>Requested topic ID: {topicId}</h3>;
 }
