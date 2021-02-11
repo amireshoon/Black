@@ -14,49 +14,49 @@ const Blog = () => {
                 </BlackArticle>
 
                 <BlackArticle for="">
-                    <img id="black-post-image" src="https://cdn.dribbble.com/users/2291435/screenshots/15102950/media/eebe8d7fa0ee02c5df63b3e0baa2ddd3.png" alt="psot title"/>
+                    <img id="black-post-image" src="https://cdn.dribbble.com/users/2893989/screenshots/15104100/media/94ad9005a2be8afba34b91776b9c1aaf.png" alt="psot title"/>
                     <h1 id="black-post-title">There is more than you know</h1>
                     <p id="black-post-shortdesc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
                     <a id="black-post-link" href="#">Read more <img src={externalLink}/></a>
                 </BlackArticle>
 
                 <BlackArticle for="">
-                    <img id="black-post-image" src="https://cdn.dribbble.com/users/2291435/screenshots/15102950/media/eebe8d7fa0ee02c5df63b3e0baa2ddd3.png" alt="psot title"/>
+                    <img id="black-post-image" src="https://cdn.dribbble.com/users/3366206/screenshots/15104537/media/b258f56f17096efec4970e55c7928b3b.png" alt="psot title"/>
                     <h1 id="black-post-title">There is more than you know</h1>
                     <p id="black-post-shortdesc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
                     <a id="black-post-link" href="#">Read more <img src={externalLink}/></a>
                 </BlackArticle>
 
                 <BlackArticle for="">
-                    <img id="black-post-image" src="https://cdn.dribbble.com/users/2291435/screenshots/15102950/media/eebe8d7fa0ee02c5df63b3e0baa2ddd3.png" alt="psot title"/>
+                    <img id="black-post-image" src="https://cdn.dribbble.com/users/5349290/screenshots/15104011/media/ad3208244c1b1f79ccda3ffb27038ba9.png" alt="psot title"/>
                     <h1 id="black-post-title">There is more than you know</h1>
                     <p id="black-post-shortdesc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
                     <a id="black-post-link" href="#">Read more <img src={externalLink}/></a>
                 </BlackArticle>
 
                 <BlackArticle for="">
-                    <img id="black-post-image" src="https://cdn.dribbble.com/users/2291435/screenshots/15102950/media/eebe8d7fa0ee02c5df63b3e0baa2ddd3.png" alt="psot title"/>
+                    <img id="black-post-image" src="https://cdn.dribbble.com/users/625592/screenshots/15106517/media/ee99f71f1d045a99967d3ddaeb0c9aed.png" alt="psot title"/>
                     <h1 id="black-post-title">There is more than you know</h1>
                     <p id="black-post-shortdesc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
                     <a id="black-post-link" href="#">Read more <img src={externalLink}/></a>
                 </BlackArticle>
 
                 <BlackArticle for="">
-                    <img id="black-post-image" src="https://cdn.dribbble.com/users/2291435/screenshots/15102950/media/eebe8d7fa0ee02c5df63b3e0baa2ddd3.png" alt="psot title"/>
+                    <img id="black-post-image" src="https://cdn.dribbble.com/users/238864/screenshots/15100860/media/09fa3a617e9225290a3d105b8fc9448d.jpg" alt="psot title"/>
                     <h1 id="black-post-title">There is more than you know</h1>
                     <p id="black-post-shortdesc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
                     <a id="black-post-link" href="#">Read more <img src={externalLink}/></a>
                 </BlackArticle>
 
                 <BlackArticle for="">
-                    <img id="black-post-image" src="https://cdn.dribbble.com/users/2291435/screenshots/15102950/media/eebe8d7fa0ee02c5df63b3e0baa2ddd3.png" alt="psot title"/>
+                    <img id="black-post-image" src="https://cdn.dribbble.com/users/1991129/screenshots/15100943/media/6ebfb5f4b24d2c621caabc65efdf38e8.jpg" alt="psot title"/>
                     <h1 id="black-post-title">There is more than you know</h1>
                     <p id="black-post-shortdesc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
                     <a id="black-post-link" href="#">Read more <img src={externalLink}/></a>
                 </BlackArticle>
 
                 <BlackArticle for="">
-                    <img id="black-post-image" src="https://cdn.dribbble.com/users/2291435/screenshots/15102950/media/eebe8d7fa0ee02c5df63b3e0baa2ddd3.png" alt="psot title"/>
+                    <img id="black-post-image" src="https://cdn.dribbble.com/users/2351/screenshots/15101616/media/90ceb56733b970557224ebbc902e0cec.jpg" alt="psot title"/>
                     <h1 id="black-post-title">There is more than you know</h1>
                     <p id="black-post-shortdesc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
                     <a id="black-post-link" href="#">Read more <img src={externalLink}/></a>
@@ -87,7 +87,7 @@ const BlackArticle = styled.article`
     border-width: 1px;
     border-color: rgba(255, 255, 255, 0.3);
     padding-bottom: 20px;
-    float: left;
+    float: right; // i don't know why i had to change it maybe later i have to revert it to left
     margin-left: 17px;
     margin-bottom: 20px;
 
