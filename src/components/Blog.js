@@ -91,6 +91,13 @@ const BlackArticle = styled.article`
     margin-left: 17px;
     margin-bottom: 20px;
 
+    opacity: 0;
+    animation: fadein 2s forwards;
+    -moz-animation: fadein 2s forwards; /* Firefox */
+    -webkit-animation: fadein 2s forwards; /* Safari and Chrome */
+    -o-animation: fadein 2s forwards; /* Opera */
+    animation-delay: 0.4s;
+
     #black-post-image {
         width: 282px;
         border-radius: 19px;

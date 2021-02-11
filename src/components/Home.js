@@ -91,7 +91,7 @@ const ButtonHolders = styled.div`
     -moz-animation: fadein 2s forwards; /* Firefox */
     -webkit-animation: fadein 2s forwards; /* Safari and Chrome */
     -o-animation: fadein 2s forwards; /* Opera */
-    animation-delay: 2s;
+    animation-delay: 1.2s;
 `
 
 const Container = styled.div`
@@ -122,7 +122,7 @@ align-items: center;
     -moz-animation: fadein 2s forwards; /* Firefox */
     -webkit-animation: fadein 2s forwards; /* Safari and Chrome */
     -o-animation: fadein 2s forwards; /* Opera */
-    animation-delay: 1.2s;
+    animation-delay: 0.8s;
 }
 
 #i-h {
@@ -148,7 +148,7 @@ align-items: center;
     -moz-animation: fadein 2s forwards; /* Firefox */
     -webkit-animation: fadein 2s forwards; /* Safari and Chrome */
     -o-animation: fadein 2s forwards; /* Opera */
-    animation-delay: 1.2s;
+    animation-delay: 0.8s;
 }
 
 h1 {
@@ -170,7 +170,7 @@ h1 {
     -moz-animation: fadein 2s forwards; /* Firefox */
     -webkit-animation: fadein 2s forwards; /* Safari and Chrome */
     -o-animation: fadein 2s forwards; /* Opera */
-    animation-delay: 1.2s;
+    animation-delay: 0.8s;
 }
 
 #hand-wave {
@@ -202,7 +202,7 @@ span {
     -moz-animation: fadein 2s forwards; /* Firefox */
     -webkit-animation: fadein 2s forwards; /* Safari and Chrome */
     -o-animation: fadein 2s forwards; /* Opera */
-    animation-delay: 1.4s;
+    animation-delay: 1s;
 }
 
 #about-me-btn {
