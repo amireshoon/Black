@@ -30,6 +30,10 @@ const App = () => {
             <RouteToPortfolio />
           </Route>
 
+          <Route path="/blog">
+            <RouteToBlog />
+          </Route>
+
           <Route path="/">
             <RouteToHome />
           </Route>
@@ -116,6 +120,18 @@ function RouteToPortfolio() {
       <Wrapper>
         <Header />
         <h1>My Portfolios</h1>
+        <Footer />
+      </Wrapper>
+    </Container>
+  )
+}
+
+function RouteToBlog() {
+  return (
+    <Container>
+      <Wrapper>
+        <Header />
+        <h1>Blog</h1>
         <Footer />
       </Wrapper>
     </Container>

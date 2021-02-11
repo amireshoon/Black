@@ -17,6 +17,7 @@ const Header = () => {
                 <MenuItem href="/contact"><Link to="/contact">Contact</Link></MenuItem>
                 <MenuItem href="/journey"><Link to="/journey">Journey</Link></MenuItem>
                 <MenuItem href="/portfolio"><Link to="/portfolio">Portfolio</Link></MenuItem>
+                <MenuItem href="/blog"><Link to="/blog">Blog</Link></MenuItem>
             </Menu>
             <CurrentpageMobile href="/">Home</CurrentpageMobile>
             <div>
