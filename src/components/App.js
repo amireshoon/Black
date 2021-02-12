@@ -11,6 +11,7 @@ import {
   useParams
 } from "react-router-dom";
 import Blog from './Blog';
+import Contact from './Contact';
 
 const App = () => {
   return (
@@ -98,7 +99,7 @@ function RouteToContact() {
     <Container>
       <Wrapper>
         <Header />
-        <h1>Contact me</h1>
+          <Contact />
         <Footer />
       </Wrapper>
     </Container>
