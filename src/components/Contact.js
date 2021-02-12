@@ -6,7 +6,7 @@ import smilingEmoji from '../images/smiling_emoji.png'
 const Contact = () => {
     return (
         <Container>
-            <img id="left-image" src={manStanding} alt="Man standing picture"/>
+            <img id="left-image" src={manStanding} alt="Man standing"/>
             <Content>
                 <h1>You can reach me any time <img src={smilingEmoji} alt="Smiling emoji" /></h1>
                 <p>
