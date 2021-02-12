@@ -32,6 +32,14 @@ img {
   pointer-events: none
 }
 
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
 @keyframes fadein {
   from {
       opacity:0;
