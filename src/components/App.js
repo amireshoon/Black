@@ -67,7 +67,7 @@ const Wrapper = styled.div`
   height:100%;
   display:flex;
   @media (max-width: 500px) {
-    display:table-cell;
+    
   }
   flex-direction: column;
 `

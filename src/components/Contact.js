@@ -2,7 +2,11 @@ import React from 'react'
 import styled from 'styled-components'
 import manStanding from '../images/img-man-standing.svg'
 import smilingEmoji from '../images/smiling_emoji.png'
-
+import twitter from '../images/ic-twitter.svg'
+import github from '../images/ic-github.svg'
+import dribble from '../images/ic-dribble.svg'
+import telegram from '../images/ic-telegram.svg'
+import mailic from '../images/ic-mail.svg'
 const Contact = () => {
     return (
         <Container>
@@ -13,23 +17,23 @@ const Contact = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.
                 
                 <BlackContactLink>
-                    Twitter: <a href="/twitter">amirhwsin</a>
+                    <Icon src={twitter} /> Twitter: <a href="/twitter">amirhwsin</a>
                 </BlackContactLink>
 
                 <BlackContactLink>
-                    Github: <a href="/twitter">amireshoon</a>
+                    <Icon src={github} /> Github: <a href="/twitter">amireshoon</a>
                 </BlackContactLink>
 
                 <BlackContactLink>
-                    Dribble: <a href="/twitter">amiershoon</a>
+                    <Icon src={dribble} /> Dribble: <a href="/twitter">amiershoon</a>
                 </BlackContactLink>
 
                 <BlackContactLink>
-                    Telegram: <a href="/twitter">GeekDreamer</a>
+                    <Icon src={telegram} /> Telegram: <a href="/twitter">GeekDreamer</a>
                 </BlackContactLink>
 
                 <BlackContactLink>
-                    Email: <a href="mailto:amirhwsin@outlook.com">amirhwsin@outlook.com</a>
+                    <Icon src={mailic} /> Email: <a href="mailto:amirhwsin@outlook.com">amirhwsin@outlook.com</a>
                 </BlackContactLink>
                 </p>
 
@@ -45,7 +49,12 @@ const Container = styled.div`
     align-items: center;
     #left-image {
         height: 757px;
-
+        opacity: 0;
+        animation: fadein 2s forwards;
+        -moz-animation: fadein 2s forwards; /* Firefox */
+        -webkit-animation: fadein 2s forwards; /* Safari and Chrome */
+        -o-animation: fadein 2s forwards; /* Opera */
+        animation-delay: 0.5s;
         @media (max-width: 800px) {
             height: 557px;
         }
@@ -62,7 +71,12 @@ const Content = styled.div`
     display: flex;
     justify-content: center;
     flex-direction: column;
-
+    opacity: 0;
+    animation: fadein 2s forwards;
+    -moz-animation: fadein 2s forwards; /* Firefox */
+    -webkit-animation: fadein 2s forwards; /* Safari and Chrome */
+    -o-animation: fadein 2s forwards; /* Opera */
+    animation-delay: 0.4s;
     @media (max-width: 640px) {
         margin-left: 0px;
         margin-top: 40px;
@@ -112,6 +126,17 @@ const Content = styled.div`
 
 const BlackContactLink = styled.p`
     margin-top: 33px;
+    opacity: 0;
+    animation: fadein 2s forwards;
+    -moz-animation: fadein 2s forwards; /* Firefox */
+    -webkit-animation: fadein 2s forwards; /* Safari and Chrome */
+    -o-animation: fadein 2s forwards; /* Opera */
+    animation-delay: 0.8s;
+`
+
+const Icon = styled.img`
+    width: 20px;
+    
 `
 
 export default Contact
