@@ -3,6 +3,8 @@ import styled from "styled-components";
 import Footer from './Footer';
 import Header from './Header';
 import Home from './Home';
+import Post from './Post';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -151,6 +153,13 @@ function RouteToBlog() {
 }
 
 function RouteToArticle() {
-  let { topicId } = useParams();
-  return <h3>Requested topic ID: {topicId}</h3>;
+  return (
+    <Container>
+      <Wrapper>
+        <Header />
+        <Post />
+        <Footer />
+      </Wrapper>
+    </Container>
+  )
 }
