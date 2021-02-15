@@ -32,9 +32,11 @@ function show(e) {
     if (BlackState.isMobileMenuShown) {
         document.getElementById("black-mobile-menu").style.display = 'none';
         BlackState.isMobileMenuShown = false
+        document.getElementsByTagName('body')[0].style.overflow = 'visible';
     }else {
         document.getElementById("black-mobile-menu").style.display = 'flex';
         BlackState.isMobileMenuShown = true
+        document.getElementsByTagName('body')[0].style.overflow = 'hidden';
     }
 }
 const Container = styled.header`
