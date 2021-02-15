@@ -6,16 +6,15 @@ import {
 import ManSitting from '../images/img-man-sitting.svg'
 
 const Post = () => {
-    // let { topicId } = useParams();
+    let { topicId } = useParams();
     
     return (
         <Container>
             
             <Wrapper>
             <img src={ManSitting} alt="Man sitting" />
-            {/* <h1>{topicId}</h1> */}
             <h1>
-                I’m Amirhossein Meydani <br></br>
+            {topicId} - I’m Amirhossein Meydani <br></br>
                 A Backend and Android <br></br>
                 Programmer and UI/UX Designer
             </h1>
