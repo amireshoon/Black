@@ -95,6 +95,7 @@ function RouteToAbout() {
       <Wrapper>
         <Header />
         <h1>About me</h1>
+        <MobileMenu />
         <Footer />
       </Wrapper>
     </Container>
@@ -108,6 +109,7 @@ function RouteToContact() {
       <Wrapper>
         <Header />
           <Contact />
+          <MobileMenu />
         <Footer />
       </Wrapper>
     </Container>
@@ -121,6 +123,7 @@ function RouteToJourney() {
       <Wrapper>
         <Header />
         <h1>My Journey</h1>
+        <MobileMenu />
         <Footer />
       </Wrapper>
     </Container>
@@ -134,6 +137,7 @@ function RouteToPortfolio() {
       <Wrapper>
         <Header />
         <h1>My Portfolios</h1>
+        <MobileMenu />
         <Footer />
       </Wrapper>
     </Container>
@@ -153,6 +157,7 @@ function RouteToBlog() {
           <Wrapper>
             <Header />
               <Blog />
+              <MobileMenu />
             <Footer />
           </Wrapper>
         </Route>
@@ -168,6 +173,7 @@ function RouteToArticle() {
       <Wrapper>
         <Header />
         <Post />
+        <MobileMenu />
         <Footer />
       </Wrapper>
     </Container>
