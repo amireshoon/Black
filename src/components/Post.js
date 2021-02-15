@@ -6,7 +6,7 @@ import {
 import ManSitting from '../images/img-man-sitting.svg'
 
 const Post = () => {
-    let { topicId } = useParams();
+    // let { topicId } = useParams();
     
     return (
         <Container>

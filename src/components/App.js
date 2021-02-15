@@ -9,8 +9,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  useRouteMatch,
-  useParams
+  useRouteMatch
 } from "react-router-dom";
 import Blog from './Blog';
 import Contact from './Contact';
