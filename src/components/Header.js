@@ -4,7 +4,6 @@ import {
     Link
 } from 'react-router-dom'
 import BlackState from '../pageState';
-import MobileMenu from './MobileMenu';
 
 const Header = () => {
     return (
