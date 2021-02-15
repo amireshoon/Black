@@ -4,12 +4,13 @@ import {
     Link
 } from 'react-router-dom'
 import BlackState from '../pageState';
+import MobileMenu from './MobileMenu';
 
 const Header = () => {
     return (
         <Container>
             <div>
-            <HamMenu>
+            <HamMenu onClick={show}>
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" shape-rendering="geometricPrecision" class="mobile-menu_icon__1FO0U"><path d="M3 12h18"></path><path d="M3 6h18"></path><path d="M3 18h18"></path></svg></HamMenu>
             </div>
             <Menu>
@@ -27,7 +28,16 @@ const Header = () => {
         </Container>
     )
 }
-
+function show(e) {
+    e.preventDefault();
+    if (BlackState.isMobileMenuShown) {
+        document.getElementById("black-mobile-menu").style.display = 'none';
+        BlackState.isMobileMenuShown = false
+    }else {
+        document.getElementById("black-mobile-menu").style.display = 'flex';
+        BlackState.isMobileMenuShown = true
+    }
+}
 const Container = styled.header`
     display: flex;
     align-items: center;

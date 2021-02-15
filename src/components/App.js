@@ -5,6 +5,7 @@ import Header from './Header';
 import Home from './Home';
 import Post from './Post';
 import BlackState from '../pageState';
+import MobileMenu from '../components/MobileMenu'
 
 import {
   BrowserRouter as Router,
@@ -16,6 +17,7 @@ import Blog from './Blog';
 import Contact from './Contact';
 
 const App = () => {
+  BlackState.isMobileMenuShown = false
   return (
     <Router>
       <div>
@@ -79,6 +81,7 @@ function RouteToHome() {
       <Wrapper>
         <Header />
         <Home />
+        <MobileMenu />
         <Footer />
       </Wrapper>
     </Container>
