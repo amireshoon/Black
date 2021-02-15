@@ -4,6 +4,7 @@ import Footer from './Footer';
 import Header from './Header';
 import Home from './Home';
 import Post from './Post';
+import BlackState from '../pageState';
 
 import {
   BrowserRouter as Router,
@@ -72,6 +73,7 @@ const Wrapper = styled.div`
 export default App
 
 function RouteToHome() {
+  BlackState.pageTitle = 'Home'
   return (
     <Container>
       <Wrapper>
@@ -84,6 +86,7 @@ function RouteToHome() {
 }
 
 function RouteToAbout() {
+  BlackState.pageTitle = 'About'
   return (
     <Container>
       <Wrapper>
@@ -96,6 +99,7 @@ function RouteToAbout() {
 }
 
 function RouteToContact() {
+  BlackState.pageTitle = 'Contact'
   return (
     <Container>
       <Wrapper>
@@ -108,6 +112,7 @@ function RouteToContact() {
 }
 
 function RouteToJourney() {
+  BlackState.pageTitle = 'Journey'
   return (
     <Container>
       <Wrapper>
@@ -120,6 +125,7 @@ function RouteToJourney() {
 }
 
 function RouteToPortfolio() {
+  BlackState.pageTitle = 'Portfolio'
   return (
     <Container>
       <Wrapper>
@@ -133,6 +139,7 @@ function RouteToPortfolio() {
 
 function RouteToBlog() {
   let match = useRouteMatch();
+  BlackState.pageTitle = 'Blog'
   return (
     <Container>
       <Switch>
@@ -152,6 +159,7 @@ function RouteToBlog() {
 }
 
 function RouteToArticle() {
+  BlackState.pageTitle = 'Blog'
   return (
     <Container>
       <Wrapper>

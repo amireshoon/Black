@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import {
     Link
 } from 'react-router-dom'
+import BlackState from '../pageState';
 
 const Header = () => {
     return (
@@ -19,7 +20,7 @@ const Header = () => {
                 <MenuItem href="/portfolio"><Link to="/portfolio">Portfolio</Link></MenuItem>
                 <MenuItem href="/blog"><Link to="/blog">Blog</Link></MenuItem>
             </Menu>
-            <CurrentpageMobile href="/">Home</CurrentpageMobile>
+            <CurrentpageMobile href="/">{BlackState.pageTitle}</CurrentpageMobile>
             <div>
                 {/* Place for logo or anything similar */}
             </div>
