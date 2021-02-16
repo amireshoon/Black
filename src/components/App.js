@@ -90,11 +90,13 @@ function RouteToHome() {
 
 function RouteToAbout() {
   BlackState.pageTitle = 'About'
+  BlackState.specialPost = 'about'
   return (
     <Container>
       <Wrapper>
         <Header />
-        <h1>About me</h1>
+        {/* <h1>About me</h1> */}
+        <Post />
         <MobileMenu />
         <Footer />
       </Wrapper>

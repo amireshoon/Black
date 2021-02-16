@@ -4,10 +4,15 @@ import {
     useParams
   } from "react-router-dom";
 import ManSitting from '../images/img-man-sitting.svg'
+import BlackState from '../pageState'
 
 const Post = () => {
     let { topicId } = useParams();
-    
+    if (BlackState.specialPost == 'about') {
+        // Load about post
+    }else {
+        // Load orginal post
+    }
     return (
         <Container>
             
