@@ -15,6 +15,7 @@ import {
 } from "react-router-dom";
 import Blog from './Blog';
 import Contact from './Contact';
+import Portfolio from './Portfolio';
 
 const App = () => {
   BlackState.isMobileMenuShown = false
@@ -138,7 +139,7 @@ function RouteToPortfolio() {
     <Container>
       <Wrapper>
         <Header />
-        <h1>My Portfolios</h1>
+        <Portfolio />
         <MobileMenu />
         <Footer />
       </Wrapper>
