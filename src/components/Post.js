@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import {
     useParams
   } from "react-router-dom";
-import ManSitting from '../images/img-man-sitting.svg'
+import ManSitting from '../images/img-man-sitting.png'
 import BlackState from '../pageState'
 
 const Post = () => {
@@ -107,7 +107,7 @@ const Wrapper = styled.div`
     img {
         margin-left: 40px;
         min-width: 20%;
-        max-width: 60%;
+        max-width: 25%;
         height: auto;
         @media (max-width: 730px) {
             margin: 0 auto;

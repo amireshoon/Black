@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import manStanding from '../images/img-man-standing.svg'
+import manStanding from '../images/img-man-standing.png'
 import smilingEmoji from '../images/smiling_emoji.png'
 import twitter from '../images/ic-twitter.svg'
 import github from '../images/ic-github.svg'

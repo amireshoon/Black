@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import personwithlaptop from '../images/img-p-laptop.svg'
+import personwithlaptop from '../images/img-p-laptop.png'
 import handemoji from '../images/hand_wave.png'
-import floatingHand from '../images/img-hand.svg'
+import floatingHand from '../images/img-hand.png'
 import nerdFace from '../images/nerd-face.png'
 
 const Home = () => {
