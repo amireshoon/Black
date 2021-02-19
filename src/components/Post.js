@@ -8,7 +8,7 @@ import BlackState from '../pageState'
 
 const Post = () => {
     let { topicId } = useParams();
-    if (BlackState.specialPost == 'about') {
+    if (BlackState.specialPost === 'about') {
         // Load about post
     }else {
         // Load orginal post
