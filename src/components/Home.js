@@ -4,6 +4,9 @@ import personwithlaptop from '../images/img-p-laptop.png'
 import handemoji from '../images/hand_wave.png'
 import floatingHand from '../images/img-hand.png'
 import nerdFace from '../images/nerd-face.png'
+import {
+    Link
+} from 'react-router-dom'
 
 const Home = () => {
     return (
@@ -19,8 +22,8 @@ const Home = () => {
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                 </p>
                 <ButtonHolders>
-                    <PrimaryButton id="about-me-btn" type="button">About me</PrimaryButton>
-                    <SecondaryButton id="portfolios-btn" type="button"><img id="nerd-face" src={nerdFace} alt="nerd face emoji"/> Let’s see portfolios</SecondaryButton>
+                    <Link to="/about"><PrimaryButton id="about-me-btn" type="button">About me</PrimaryButton></Link>
+                    <Link to="/portfolio"><SecondaryButton id="portfolios-btn" type="button"><img id="nerd-face" src={nerdFace} alt="nerd face emoji"/> Let’s see portfolios</SecondaryButton></Link>
                 </ButtonHolders>
                 <img id="i-h" src={floatingHand} alt="floating hand"/>
             </Wrapper>
