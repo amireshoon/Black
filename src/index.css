@@ -73,3 +73,8 @@ p {
       opacity: 1;
   }
 }
+
+@keyframes waitingAnimation {
+  from {color: white;}
+  to {color: #8a8f98;}
+}

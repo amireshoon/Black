@@ -17,7 +17,14 @@ const Container = styled.div`
         text-align: center;
         top: 50%;
         position: relative;
+        font-size: 54px;
+        animation-name: waitingAnimation;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
     }
+
+    
 `
 
 
