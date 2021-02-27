@@ -19,7 +19,7 @@ const Home = () => {
                 </h1>
                 
                 <p id="short-about">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    I am a backend and android programmer and also I am a UI Designer. I love learning and sharing, You can check my <a href="https://github.com/amireshoon" target="blank" target="blank">Github</a>, <a href="https://dribbble.com/amireshoon" target="blank">Dribbble</a>, <a href="https://gitlab.com/amirhwsin" target="blank">GitLab</a> and <Link id="nav-link" to="/portfolio">Portfolio</Link> page to see my latest works.
                 </p>
                 <ButtonHolders>
                     <Link to="/about"><PrimaryButton id="about-me-btn" type="button">About me</PrimaryButton></Link>
