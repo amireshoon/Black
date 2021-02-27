@@ -16,6 +16,7 @@ import {
 import Blog from './Blog';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
+import Journey from './Journey';
 
 const App = () => {
   BlackState.isMobileMenuShown = false
@@ -125,7 +126,7 @@ function RouteToJourney() {
     <Container>
       <Wrapper>
         <Header />
-        <h1>My Journey</h1>
+        <Journey />
         <MobileMenu />
         <Footer />
       </Wrapper>
