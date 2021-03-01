@@ -13,12 +13,12 @@ const Header = () => {
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" shape-rendering="geometricPrecision" class="mobile-menu_icon__1FO0U"><path d="M3 12h18"></path><path d="M3 6h18"></path><path d="M3 18h18"></path></svg></HamMenu>
             </div>
             <Menu>
-                <Link id="nav-link" to="/">Home</Link>
-                <Link id="nav-link" to="/about">About</Link>
-                <Link id="nav-link" to="/contact">Contact</Link>
-                <Link id="nav-link" to="/journey">Journey</Link>
-                <Link id="nav-link" to="/portfolio">Portfolio</Link>
-                <Link id="nav-link" to="/blog">Blog</Link>
+                <Link id={isOnThis("Home")} class="nav-link" to="/">Home</Link>
+                <Link id={isOnThis("About")} class="nav-link" to="/about">About</Link>
+                <Link id={isOnThis("Contact")} class="nav-link" to="/contact">Contact</Link>
+                <Link id={isOnThis("Journey")} class="nav-link" to="/journey">Journey</Link>
+                <Link id={isOnThis("Portfolio")} class="nav-link" to="/portfolio">Portfolio</Link>
+                <Link id={isOnThis("Blog")} class="nav-link" to="/blog">Blog</Link>
             </Menu>
             <CurrentpageMobile href="/">{BlackState.pageTitle}</CurrentpageMobile>
             <div>
@@ -37,6 +37,14 @@ function show(e) {
         document.getElementById("black-mobile-menu").style.display = 'flex';
         BlackState.isMobileMenuShown = true
         document.getElementsByTagName('body')[0].style.overflow = 'hidden';
+    }
+}
+
+function isOnThis(identifier) {
+    if (identifier == BlackState.pageTitle) {
+        return "current-link"
+    }else {
+        return ""
     }
 }
 const Container = styled.header`
@@ -60,7 +68,7 @@ const Menu = styled.div`
         display: none;
     }
 
-    #nav-link {
+    .nav-link {
         font-size: 14px;
         text-transform: uppercase;
         font-weight: 700;
@@ -71,6 +79,10 @@ const Menu = styled.div`
         align-items: center;
         cursor: pointer;
         height:100%;
+    }
+
+    #current-link {
+        color: white;
     }
 `
 
