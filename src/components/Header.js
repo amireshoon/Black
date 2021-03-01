@@ -4,6 +4,7 @@ import {
     Link
 } from 'react-router-dom'
 import BlackState from '../pageState';
+import logo from '../images/logo512.png';
 
 const Header = () => {
     return (
@@ -22,7 +23,7 @@ const Header = () => {
             </Menu>
             <CurrentpageMobile href="/">{BlackState.pageTitle}</CurrentpageMobile>
             <div>
-                {/* Place for logo or anything similar */}
+                <img id="header-logo" src={logo} alt="logo"/>
             </div>
         </Container>
     )
@@ -58,6 +59,11 @@ const Container = styled.header`
     box-shadow: 0px 4px 4px 0px #000000 25%;
 
     border-bottom: 1px solid #333;
+
+    #header-logo {
+        width: 40px;
+        margin-right: 20px;
+    }
 `
 
 const Menu = styled.div`
