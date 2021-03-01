@@ -19,7 +19,7 @@ const Home = () => {
                 </h1>
                 
                 <p id="short-about">
-                    I am a backend and android programmer and also I am a UI Designer. I love learning and sharing, You can check my <a href="https://github.com/amireshoon" target="blank">Github</a>, <a href="https://dribbble.com/amireshoon" target="blank">Dribbble</a>, <a href="https://gitlab.com/amirhwsin" target="blank">GitLab</a> and <Link to="/portfolio">Portfolio</Link> page to see my latest works.
+                    I am a backend and android programmer and also I am a UI Designer. I love learning and sharing, You can check my <a class="home-main-links" href="https://github.com/amireshoon" target="blank">Github</a>, <a class="home-main-links" href="https://dribbble.com/amireshoon" target="blank">Dribbble</a>, <a class="home-main-links" href="https://gitlab.com/amirhwsin" target="blank">GitLab</a> and <Link class="home-main-links" to="/portfolio">Portfolio</Link> page to see my latest works.
                 </p>
                 <ButtonHolders>
                     <Link to="/about"><PrimaryButton id="about-me-btn" type="button">About me</PrimaryButton></Link>
@@ -214,6 +214,10 @@ span {
 `
 
 const Wrapper = styled.div`
+
+    .home-main-links {
+        color: var(--color-yellow);
+    }
 
 `
 

@@ -78,3 +78,15 @@ p {
   from {color: white;}
   to {color: #8a8f98;}
 }
+
+:root {
+  --color-yellow: rgb(253, 184, 39);
+  --color-yellow-low-alpha: rgba(253, 184, 39, 0.3);
+}
+
+::selection {
+  background: var(--color-yellow-low-alpha); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: var(--color-yellow-low-alpha); /* Gecko Browsers */
+}
