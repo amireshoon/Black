@@ -41,7 +41,7 @@ function show(e) {
 }
 
 function isOnThis(identifier) {
-    if (identifier == BlackState.pageTitle) {
+    if (identifier === BlackState.pageTitle) {
         return "current-link"
     }else {
         return ""
