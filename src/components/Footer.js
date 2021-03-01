@@ -13,24 +13,24 @@ const Footer = () => {
             <div>
                 <ul>
                     <li>
-                        <a href="/github">
+                        <a href="https://github.com/amireshoon">
                             <img src={icgithub} alt="Github profile"></img>
                         </a>
                     </li>
                     <li>
-                        <a href="/github">
+                        <a href="https://twitter.com/Amirhwsin">
                             <img src={ictwitter} alt="twitter account" id="ic-twitter"></img>
                         </a>
                     </li>
                     <li>
-                        <a href="/github">
+                        <a href="https://dribbble.com/amireshoon">
                             <img src={icdribble} alt="dribble account" id="ic-dribble"></img>
                         </a>
                     </li>
                 </ul>
             </div>
             <div>
-                <a href="/github">Souce code available</a> | <a href="/github">Contribute</a>
+                <a href="https://github.com/amireshoon/black">Souce code available</a> | <a href="https://github.com/amireshoon/black">Contribute</a>
             </div>
         </Container>
         </BlackFooter>
