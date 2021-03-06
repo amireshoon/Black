@@ -11,7 +11,7 @@ const Journey = () => {
 
 const Container = styled.div`
     
-    height: 100%;
+    height: 82vh;
     h1 {
         margin: 0 auto;
         text-align: center;

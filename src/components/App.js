@@ -67,7 +67,7 @@ const Wrapper = styled.div`
   background: #000;
   width: 100%;
   height:100%;
-  display:grid;
+  display:flex;
   @media (max-width: 500px) {
     
   }
