@@ -14,7 +14,8 @@ const Contact = () => {
             <Content>
                 <h1>You can reach me any time <img src={smilingEmoji} alt="Smiling emoji" /></h1>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.
+                I am Amirhossein Meydani and you can reach me for any Question, Project, or anything you know I could help in.
+                <br></br>Also, you can follow me on Social Media (I don't usually active in most of them).
                 
                 <BlackContactLink>
                     <Icon src={twitter} /> Twitter: <a href="/twitter">amirhwsin</a>
