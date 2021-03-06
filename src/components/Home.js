@@ -113,7 +113,7 @@ align-items: center;
     z-index: 10;
     @media (max-width: 793px) {
         width:74%;
-        height: 74%;
+        height: auto;
     }
     @media (max-width: 500px) {
         top: -36px;
