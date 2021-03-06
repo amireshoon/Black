@@ -18,19 +18,19 @@ const Contact = () => {
                 <br></br>Also, you can follow me on Social Media (I don't usually active in most of them).
                 
                 <BlackContactLink>
-                    <Icon src={twitter} /> Twitter: <a href="/twitter">amirhwsin</a>
+                    <Icon src={twitter} /> Twitter: <a href="https://twitter.com/amirhwsin">amirhwsin</a>
                 </BlackContactLink>
 
                 <BlackContactLink>
-                    <Icon src={github} /> Github: <a href="/twitter">amireshoon</a>
+                    <Icon src={github} /> Github: <a href="https://github.com/amireshoon">amireshoon</a>
                 </BlackContactLink>
 
                 <BlackContactLink>
-                    <Icon src={dribble} /> Dribble: <a href="/twitter">amiershoon</a>
+                    <Icon src={dribble} /> Dribble: <a href="https://dribbble.com/amireshoon">amiershoon</a>
                 </BlackContactLink>
 
                 <BlackContactLink>
-                    <Icon src={telegram} /> Telegram: <a href="/twitter">GeekDreamer</a>
+                    <Icon src={telegram} /> Telegram: <a href="https://t.me/GeekDreamer">GeekDreamer</a>
                 </BlackContactLink>
 
                 <BlackContactLink>
