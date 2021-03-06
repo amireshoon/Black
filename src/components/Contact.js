@@ -45,7 +45,7 @@ const Contact = () => {
 
 const Container = styled.div`
     display: flex;
-    min-height: 100vh;
+    // min-height: 100vh;
     justify-content: center;
     align-items: center;
     #left-image {
