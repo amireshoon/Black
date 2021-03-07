@@ -9,7 +9,7 @@ Black is a personal site created using react, javascript, styled-components, and
 <p><img src="home-screenshot.jpg" /><p>
 
 
-You can find Dribbble post for this design in [here] (https://dribbble.com/shots/15250284-Personal-site?utm_source=Clipboard_Shot&utm_campaign=amireshoon&utm_content=Personal%20site&utm_medium=Social_Share) and also it's open and you can find resources or contribute in design by [this link](#).
+You can find Dribbble post for this design in [here](https://dribbble.com/shots/15250284-Personal-site?utm_source=Clipboard_Shot&utm_campaign=amireshoon&utm_content=Personal%20site&utm_medium=Social_Share) and also it's open and you can find resources or contribute in design by [this link](#).
 
 # Installation
 First clone repo and run
