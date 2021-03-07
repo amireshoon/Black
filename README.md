@@ -4,7 +4,8 @@
 Black is a personal site created using react, javascript, styled-components, and deployed on vercel.
 
 # Design
-Design sketch not released yet. as soon as the project is completed design will be published and available in Figma and Dribble.
+<p><img src="home-screenshot.jpg" /><p>
+You can find Dribbble post for this design in [here](https://dribbble.com/shots/15250252-Personal-site?utm_source=Clipboard_Shot&utm_campaign=amireshoon&utm_content=Personal%20site&utm_medium=Social_Share) and also it's open and you can find resources or contribute in design by [this link](#).
 
 # Installation
 First clone repo and run
