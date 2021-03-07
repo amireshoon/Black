@@ -4,7 +4,7 @@ import manStanding from '../images/img-man-standing.png'
 import smilingEmoji from '../images/smiling_emoji.png'
 import twitter from '../images/ic-twitter.svg'
 import github from '../images/ic-github.svg'
-import dribble from '../images/ic-dribble.svg'
+import dribbble from '../images/ic-dribble.svg'
 import telegram from '../images/ic-telegram.svg'
 import mailic from '../images/ic-mail.svg'
 const Contact = () => {
@@ -26,7 +26,7 @@ const Contact = () => {
                 </BlackContactLink>
 
                 <BlackContactLink>
-                    <Icon src={dribble} /> Dribble: <a href="https://dribbble.com/amireshoon">amiershoon</a>
+                    <Icon src={dribbble} /> Dribbble: <a href="https://dribbble.com/amireshoon">amiershoon</a>
                 </BlackContactLink>
 
                 <BlackContactLink>
