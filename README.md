@@ -14,6 +14,8 @@ You can find Dribbble post for this design in [here](https://dribbble.com/shots/
 # Installation
 First clone repo and run
 ```
+git clone https://github.com/amireshoon/Black.git
+cd Black
 npm install
 ```
 Then start the development server by
