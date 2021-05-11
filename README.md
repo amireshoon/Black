@@ -16,7 +16,7 @@ First clone repo and run
 ```
 git clone https://github.com/amireshoon/Black.git
 cd Black
-npm install
+yarn install
 ```
 Then start the development server by
 ```
