@@ -22,7 +22,7 @@ Then start the development server by
 ```
 yarn start
 ```
-Now the app is available on localhost:3000
+Now the app is available on [localhost:3000](http://localhost:3000)
 
 # Contribute
 I'm not a Front-end developer and this project is a kinda time-filling project for me. So this project has many flaws and if you think you could fix them, totally feel free to send me pull requests.
