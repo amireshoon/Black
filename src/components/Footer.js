@@ -65,7 +65,7 @@ const Container = styled.div`
     }
 
     ul li {
-        display: inline-block;
+        display: block;
     }
 
     #ic-twitter {
