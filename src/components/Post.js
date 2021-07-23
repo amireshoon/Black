@@ -40,7 +40,7 @@ const Post = () => {
     
     let actualPost = undefined;
     posts.forEach(p => {
-        if (p.slug == topicId) {
+        if (p.slug === topicId) {
             actualPost = p;
         }
     });
