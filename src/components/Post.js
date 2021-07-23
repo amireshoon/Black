@@ -45,7 +45,7 @@ const Post = () => {
         }
     });
 
-    if (actualPost == undefined) {
+    if (actualPost === undefined) {
         return (
         <Container>
             <Wrapper>
